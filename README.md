@@ -1,51 +1,19 @@
-## Resultados da Busca em Matrizes
+# Atividade Avaliativa – Estruturas de Dados
 
-| **Matriz** | **Nº de elementos** | **Busca no início** | **Busca no final** | **Valor inexistente** |
-|---|---:|---:|---:|---:|
-| 2 × 2 | 4 | **1** | **4** | **4** |
-| 10 × 10 | 100 | **1** | **100** | **100** |
-| 100 × 100 | 10.000 | **1** | **10.000** | **10.000** |
+**Nome:** Welinton Junior Vieira Silva  
+**RGM:** 43932410
 
-## Perguntas
+---
+## Minha participação no projeto
+# Atividade Avaliativa – Estruturas de Dados
 
-### a) Por que encontrar um elemento no início exige menos operações?
+**Nome:** Welinton Junior Vieira Silva
+**RGM:** 43932410
 
-Porque a busca sequencial começa pela primeira posição da matriz. Se o valor procurado estiver no início, ele será encontrado logo na primeira comparação, sem precisar verificar os outros elementos.
+## Minha participação no projeto
 
-### b) O que acontece quando o elemento procurado não existe?
+Fiquei responsável por fazer a **Parte 3 e a Parte 4** do projeto. Durante o desenvolvimento, usei a IA para me ajudar a fazer os códigos e, principalmente, para entender como eles funcionavam, já que ainda estou aprendendo Python.
 
-O algoritmo precisa percorrer todas as posições da matriz para ter certeza de que o valor não está presente. Por isso, a quantidade de comparações será igual ao número total de elementos.
+Também usei a IA para aprender como colocar os arquivos e as informações no **README do GitHub**, porque eu não sabia como fazer isso.
 
-### c) Qual é o pior caso da busca sequencial?
-
-O pior caso acontece quando o elemento procurado está na **última posição** ou quando o elemento **não existe** na matriz. Nessas situações, todos os elementos precisam ser comparados.
-
-### d) Como o aumento das dimensões da matriz influencia a quantidade de operações?
-
-Quanto maior a matriz, maior será a quantidade de elementos que podem precisar ser analisados.
-
-Por exemplo:
-
-| Matriz | Quantidade de elementos |
-|---|---:|
-| 2 × 2 | 4 elementos |
-| 10 × 10 | 100 elementos |
-| 100 × 100 | 10.000 elementos |
-
-Assim, no pior caso, a quantidade de comparações aumenta de acordo com a quantidade de elementos da matriz.
-
-### e) Qual a complexidade da busca sequencial em uma matriz com m linhas e n colunas?
-
-Uma matriz com `m` linhas e `n` colunas possui:
-
-**m × n elementos**
-
-No pior caso, a busca pode precisar verificar todos eles.
-
-Portanto, a complexidade é:
-
-**O(m × n)**
-
-Se for uma matriz quadrada, como `n × n`, podemos representar como:
-
-**O(n²)**
+Na parte dos textos, usei a IA para me ajudar a organizar as ideias e entender melhor o conteúdo. Depois, reescrevi tudo com **minhas próprias palavras**, tentando deixar as explicações de uma forma que eu entendesse e que também pudesse ser entendida por outras pessoas.
